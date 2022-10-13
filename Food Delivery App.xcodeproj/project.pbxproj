@@ -8,22 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		A41C26D828F87AF600A2A16C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C26D728F87AF600A2A16C /* AppDelegate.swift */; };
-		A41C26DA28F87AF600A2A16C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C26D928F87AF600A2A16C /* SceneDelegate.swift */; };
-		A41C26DC28F87AF600A2A16C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C26DB28F87AF600A2A16C /* ViewController.swift */; };
-		A41C26DF28F87AF600A2A16C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41C26DD28F87AF600A2A16C /* Main.storyboard */; };
 		A41C26E128F87AF800A2A16C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A41C26E028F87AF800A2A16C /* Assets.xcassets */; };
 		A41C26E428F87AF800A2A16C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A41C26E228F87AF800A2A16C /* LaunchScreen.storyboard */; };
+		A41C26ED28F87F6100A2A16C /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C26EB28F87F6100A2A16C /* MenuViewController.swift */; };
+		A41C26EE28F87F6100A2A16C /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A41C26EC28F87F6100A2A16C /* MenuViewController.xib */; };
+		A41C26F128F880A100A2A16C /* TabBarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C26F028F880A100A2A16C /* TabBarModel.swift */; };
+		A41C26F328F880DB00A2A16C /* TabBarConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C26F228F880DB00A2A16C /* TabBarConfiguration.swift */; };
+		A41C26F828F8849600A2A16C /* ContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C26F628F8849600A2A16C /* ContactsViewController.swift */; };
+		A41C26F928F8849600A2A16C /* ContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A41C26F728F8849600A2A16C /* ContactsViewController.xib */; };
+		A41C26FD28F884B900A2A16C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C26FB28F884B900A2A16C /* ProfileViewController.swift */; };
+		A41C26FE28F884B900A2A16C /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A41C26FC28F884B900A2A16C /* ProfileViewController.xib */; };
+		A41C270228F884D100A2A16C /* BasketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A41C270028F884D100A2A16C /* BasketViewController.swift */; };
+		A41C270328F884D100A2A16C /* BasketViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A41C270128F884D100A2A16C /* BasketViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A41C26D428F87AF600A2A16C /* Food Delivery App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Delivery App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A41C26D728F87AF600A2A16C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A41C26D928F87AF600A2A16C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A41C26DB28F87AF600A2A16C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A41C26DE28F87AF600A2A16C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A41C26E028F87AF800A2A16C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A41C26E328F87AF800A2A16C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A41C26E528F87AF800A2A16C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A41C26EB28F87F6100A2A16C /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		A41C26EC28F87F6100A2A16C /* MenuViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuViewController.xib; sourceTree = "<group>"; };
+		A41C26F028F880A100A2A16C /* TabBarModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarModel.swift; sourceTree = "<group>"; };
+		A41C26F228F880DB00A2A16C /* TabBarConfiguration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarConfiguration.swift; sourceTree = "<group>"; };
+		A41C26F628F8849600A2A16C /* ContactsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsViewController.swift; sourceTree = "<group>"; };
+		A41C26F728F8849600A2A16C /* ContactsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactsViewController.xib; sourceTree = "<group>"; };
+		A41C26FB28F884B900A2A16C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		A41C26FC28F884B900A2A16C /* ProfileViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+		A41C270028F884D100A2A16C /* BasketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketViewController.swift; sourceTree = "<group>"; };
+		A41C270128F884D100A2A16C /* BasketViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasketViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +54,7 @@
 		A41C26CB28F87AF600A2A16C = {
 			isa = PBXGroup;
 			children = (
+				A41C26D728F87AF600A2A16C /* AppDelegate.swift */,
 				A41C26D628F87AF600A2A16C /* Food Delivery App */,
 				A41C26D528F87AF600A2A16C /* Products */,
 			);
@@ -56,15 +71,61 @@
 		A41C26D628F87AF600A2A16C /* Food Delivery App */ = {
 			isa = PBXGroup;
 			children = (
-				A41C26D728F87AF600A2A16C /* AppDelegate.swift */,
-				A41C26D928F87AF600A2A16C /* SceneDelegate.swift */,
-				A41C26DB28F87AF600A2A16C /* ViewController.swift */,
-				A41C26DD28F87AF600A2A16C /* Main.storyboard */,
+				A41C26FF28F884BF00A2A16C /* Basket */,
+				A41C26FA28F884A800A2A16C /* Profile */,
+				A41C26F528F8847300A2A16C /* Contacts */,
+				A41C26F428F8810700A2A16C /* Menu */,
+				A41C26EF28F8807B00A2A16C /* TabBar */,
 				A41C26E028F87AF800A2A16C /* Assets.xcassets */,
 				A41C26E228F87AF800A2A16C /* LaunchScreen.storyboard */,
 				A41C26E528F87AF800A2A16C /* Info.plist */,
 			);
 			path = "Food Delivery App";
+			sourceTree = "<group>";
+		};
+		A41C26EF28F8807B00A2A16C /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				A41C26F028F880A100A2A16C /* TabBarModel.swift */,
+				A41C26F228F880DB00A2A16C /* TabBarConfiguration.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		A41C26F428F8810700A2A16C /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				A41C26EB28F87F6100A2A16C /* MenuViewController.swift */,
+				A41C26EC28F87F6100A2A16C /* MenuViewController.xib */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		A41C26F528F8847300A2A16C /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				A41C26F628F8849600A2A16C /* ContactsViewController.swift */,
+				A41C26F728F8849600A2A16C /* ContactsViewController.xib */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		A41C26FA28F884A800A2A16C /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				A41C26FB28F884B900A2A16C /* ProfileViewController.swift */,
+				A41C26FC28F884B900A2A16C /* ProfileViewController.xib */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		A41C26FF28F884BF00A2A16C /* Basket */ = {
+			isa = PBXGroup;
+			children = (
+				A41C270028F884D100A2A16C /* BasketViewController.swift */,
+				A41C270128F884D100A2A16C /* BasketViewController.xib */,
+			);
+			path = Basket;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +186,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A41C26FE28F884B900A2A16C /* ProfileViewController.xib in Resources */,
 				A41C26E428F87AF800A2A16C /* LaunchScreen.storyboard in Resources */,
 				A41C26E128F87AF800A2A16C /* Assets.xcassets in Resources */,
-				A41C26DF28F87AF600A2A16C /* Main.storyboard in Resources */,
+				A41C270328F884D100A2A16C /* BasketViewController.xib in Resources */,
+				A41C26EE28F87F6100A2A16C /* MenuViewController.xib in Resources */,
+				A41C26F928F8849600A2A16C /* ContactsViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +202,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A41C26DC28F87AF600A2A16C /* ViewController.swift in Sources */,
+				A41C26F128F880A100A2A16C /* TabBarModel.swift in Sources */,
 				A41C26D828F87AF600A2A16C /* AppDelegate.swift in Sources */,
-				A41C26DA28F87AF600A2A16C /* SceneDelegate.swift in Sources */,
+				A41C26F328F880DB00A2A16C /* TabBarConfiguration.swift in Sources */,
+				A41C26FD28F884B900A2A16C /* ProfileViewController.swift in Sources */,
+				A41C26ED28F87F6100A2A16C /* MenuViewController.swift in Sources */,
+				A41C270228F884D100A2A16C /* BasketViewController.swift in Sources */,
+				A41C26F828F8849600A2A16C /* ContactsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		A41C26DD28F87AF600A2A16C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				A41C26DE28F87AF600A2A16C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		A41C26E228F87AF800A2A16C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,9 +352,9 @@
 				DEVELOPMENT_TEAM = 923JFM2J84;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Food Delivery App/Info.plist";
+				INFOPLIST_KEY_NSMainNibFile = MenuViewController;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,9 +380,9 @@
 				DEVELOPMENT_TEAM = 923JFM2J84;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Food Delivery App/Info.plist";
+				INFOPLIST_KEY_NSMainNibFile = MenuViewController;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
